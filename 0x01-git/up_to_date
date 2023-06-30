@@ -1,0 +1,16 @@
+root@2ceed7f11e08:/# git clone https://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@github.com/AhmedHelmy07/alx-pre_course.git
+fatal: destination path 'alx-pre_course' already exists and is not an empty directory.
+root@2ceed7f11e08:/# cd alx-pre_course/0x01-git/
+bash: cd: alx-pre_course/0x01-git/: No such file or directory
+root@2ceed7f11e08:/# cd 0x01-git/
+bash: cd: 0x01-git/: No such file or directory
+root@2ceed7f11e08:/# cd alx-pre_course
+root@2ceed7f11e08:/alx-pre_course# cd ./
+root@2ceed7f11e08:/alx-pre_course# cd ../
+root@2ceed7f11e08:/# git branch update_script
+fatal: not a git repository (or any of the parent directories): .git
+root@2ceed7f11e08:/# cd alx-pre_course
+root@2ceed7f11e08:/alx-pre_course# git branch update_script
+root@2ceed7f11e08:/alx-pre_course# git push
+To https://github.com/AhmedHelmy07/alx-pre_course.git
+git pull origin
